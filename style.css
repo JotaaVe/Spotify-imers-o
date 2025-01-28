@@ -1,0 +1,236 @@
+body{
+    background-color: #000;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+.sidebar_nav{
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.logo{
+    background: #121212;
+    display: flex;
+    border-radius: 8px ;
+
+}
+
+.sidebar_nav .logo img{
+    width: 30%;
+}
+
+.sidebar nav ul{
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+
+.sidebar ul li{
+    padding: 10px 0 ;
+}
+
+.sidebar nav ul li a .fa-house{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.sidebar nav ul li a .fa-magnifying-glass{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.sidebar nav ul li a{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    transition: 0.3s ease-in-out;
+}
+
+.sidebar nav ul li a:hover{
+    color: #fff;
+}
+
+.biblioteca{
+    background-color: #121212;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 4px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #b3b3b3;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.biblioteca .biblioteca_conteudo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.biblioteca .btn_biblioteca{
+    display: flex;
+    margin-right: 10px;
+    color: #b3b3b3;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    border: none;
+    padding: 20px 10px;
+    width: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+.btn_biblioteca span:nth-child(1){
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.biblioteca .biblioteca_conteudo .fa-plus{
+    margin: 24px 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.biblioteca .biblioteca_conteudo .fa-plus:hover{
+    color: #fff;
+}
+
+.sec-playlist{
+    display: flex;
+    background-color: #242424;
+    align-items: flex-start;
+    border-radius: 8px;
+    gap: 20px;
+    justify-content: space-between;
+    min-block-size: 40px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0;
+    padding: 16px 20px;
+}
+
+.sec-playlist .sec-playlist-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.text{
+    font-family: "DM Sans", sans-serif;
+    color: #fff;
+    padding-bottom: 14px;
+}
+
+.title{
+    font-weight: 700;
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.section-playlist-button{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    border: none;
+    width: 113px;
+    margin-top: 12px;
+    transition: 0.3s ease-in-out;
+}
+
+.section-playlist-button:hover{
+    background-color: #1ed760;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.cookies {
+    margin: 25px 20px;
+}
+
+.cookies a {
+    text-decoration: none;
+    color: #b3b3b3;
+    font-family: "DM Sans", sans-serif;
+    font-size: 10px;
+
+}
+
+.cookies a:hover{
+    text-decoration: underline;
+}
+
+.languages-button{
+    background-color: transparent;
+    border: solid #878787 1px;
+    border-radius: 999px;
+    color: #fff;
+    padding: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 170px;
+    margin: 8px;
+}
+
+.disclaimer-premium{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #186b35, #11e45b);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    color: #fff;
+}
+
+.disclaimer-premium-title{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.disclaimer-premium-subtitle{
+    font-weight: 400px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.button button{
+    background-color: #fff;
+    color: #000;
+    padding: 14px 20px;
+    border-radius: 999px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
